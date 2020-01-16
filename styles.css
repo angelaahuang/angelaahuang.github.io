@@ -1,0 +1,65 @@
+h1 {
+    color: purple; 
+    font-size: 70px;
+    text-decoration: Underline;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 100px;
+    border: 1px solid black;
+    padding-left: 50px;
+    padding-right: 15px;
+} 
+
+h2 {
+    color: blueviolet; 
+    font-size: 40px;
+    font-style: italic;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 100px;
+    border: 1px dotted black;
+    border-width: 10px;
+    box-shadow: 30px 30px 30px black;
+    padding-left: 50px;
+    padding-right: 15px;
+} 
+
+img {
+    height: 320px; 
+    /* width: 200px; */
+}
+em {
+    text-transform: uppercase;
+    font-style: initial;
+}
+#first {
+    text-align: left; 
+}
+/* #second {
+    text-align: right; 
+} */
+.right {
+    text-align: right;
+}
+
+.tacos {
+    color: seagreen;
+}
+body {
+    Background-image: url(cloud.jpg);
+}
+.big {
+    font-size: 32px; 
+}
+
+p.tacos .big {
+    font-size: 48px;
+}
+
+p {
+    text-align: center; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+}
