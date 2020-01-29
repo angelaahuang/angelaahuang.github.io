@@ -3,13 +3,28 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-h1, .display-4 {
-  color: purple;
-  font-weight: 700;
+h1, .display-3 {
+  color: crimson;
+  font-weight: 600;
+  font-size: 60px;
+}
+
+h2, .display-4 {
+  color: navy;
+  font-weight: 400;
+  font-size: 40px
 }
 
 img {
   height: 320px;
+}
+
+.jumbotron {
+  background-attachment: fixed;
+  background-image: url(Weights\ in\ gym.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
 }
 
 h1.section-title {
@@ -36,4 +51,12 @@ h1.section-title {
 
 .bg-kellogg {
   background-color: purple;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
